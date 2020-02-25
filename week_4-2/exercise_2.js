@@ -1,10 +1,10 @@
 let num = 5;
-let array = [];
+let array = "";
 
 if (num > 0) {
     for (let i = 0; i < num; i++) {
-        array.push("*");
-        console.log(array.join(""));
+        array += "*";
+        console.log(array);
     }
 
 } else {
