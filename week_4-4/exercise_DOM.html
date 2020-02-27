@@ -59,12 +59,11 @@
         };
         changeText();
 
-        function colorGreen() {
-          let colorAlt = document.getElementsByClassName("main-content")
-          colorAlt[0].style.background = "rgb(58, 163, 108)";
+        function colorGreen(a) {
+          document.getElementsByClassName(a)[0].style.background = "rgb(58, 163, 108)"
         };
-        colorGreen();
-        
+        colorGreen("main-content");
+
     </script>
   </body>
 </html>
